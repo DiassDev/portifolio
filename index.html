@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+    <title>Portfólio - Desenvolvedor</title>
+</head>
+
+<body>
+    <header class="navBar">
+        <a href="#" class="navBrand" aria-label="DiasDev - início">
+            <img src="assets/img/UgbLogo.webp" alt="Logo UGB" class="navBrandImg">
+            <h3 class="navBarLogo">DiasDev</h3>
+        </a>
+        <button class="navToggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="navMenu" id="navMenu">
+            <nav class="navigation">
+                <a href="#sobre">Sobre</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#skills">Skills</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <div class="navBarBtnWrapper">
+                <button class="navBarCta">
+                    <span>Entrar em contato</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="heroContentWrapper">
+                <div class="TextWrapper">
+                    <h1>Código bonito. <br />
+                        Interface melhor <br />
+                        ainda.</h1>
+                    <p>Desenvolvo aplicações web com foco em experiência, performance <br />
+                        e conversão.</p>
+                    <div class="heroBtnWrapper">
+                        <button class="primary">Solicitar Projeto</button>
+                        <button class="secondary">Ver Portifólio</button>
+                    </div>
+                </div>
+                <div class="hero-animation" id="heroAnimation"></div>
+            </div>
+        </section>
+        <section class="about" id="sobre">
+            <div class="aboutContentWrapper">
+                <div class="aboutVisual" id="aboutAnimation"></div>
+                <div class="TextWrapper">
+                    <span class="eyebrow">Sobre</span>
+                    <h2>Curioso por natureza. <br />
+                        Programador por escolha.</h2>
+                    <p>Transformo ideias em produtos digitais rápidos, acessíveis e bonitos de usar. <br />
+                        Cada projeto começa com a mesma pergunta: isso resolve um problema real?</p>
+                    <div class="aboutStats">
+                        <div class="aboutStatItem">
+                            <span class="aboutStatNumber">+1</span>
+                            <span class="aboutStatLabel">Ano de experiência</span>
+                        </div>
+                        <div class="aboutStatItem">
+                            <span class="aboutStatNumber">+5</span>
+                            <span class="aboutStatLabel">Projetos entregues</span>
+                        </div>
+                        <div class="aboutStatItem">
+                            <span class="aboutStatNumber">100%</span>
+                            <span class="aboutStatLabel">Foco em resultado</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projetos">
+            <div class="projectsContentWrapper">
+                <div class="TextWrapper projectsHeader">
+                    <span class="eyebrow">Projetos</span>
+                    <h2>Ideias que saíram <br />
+                        do papel.</h2>
+                    <p>Problemas reais, soluções que funcionam e resultado que aparece.</p>
+                </div>
+                <div class="projectsGrid">
+                    <div class="projectCard">
+                        <div class="projectVisual">
+                            <img src="assets/img/project-michael.png" alt="Michael Adestramento">
+                        </div>
+                        <div class="projectInfo">
+                            <h3>Michael Adestramento</h3>
+                            <p>Landing page focada em agendamento de adestramento e cuidados para animais.</p>
+                            <a class="projectLink" href="https://michaeladestramento.com/" target="_blank"
+                                rel="noopener noreferrer">Ver projeto</a>
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <div class="projectVisual">
+                            <img src="assets/img/project-stride.png" alt="Dashboard de estudos">
+                        </div>
+                        <div class="projectInfo">
+                            <h3>Dashboard de estudos</h3>
+                            <p>Interface voltada a organização pessoal usando pomodoro, 100% estático.</p>
+                            <a class="projectLink" href="https://diassdev.github.io/Stride-Painel-de-Estudos/"
+                                target="_blank" rel="noopener noreferrer">Ver projeto</a>
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <div class="projectVisual">
+                            <span class="projectStatus">Em desenvolvimento</span>
+                        </div>
+                        <div class="projectInfo">
+                            <h3>Gueto Barbearia</h3>
+                            <p>Lading page premium e editorial focada em agendamento de clientes, com sistema de agenda
+                                integrada.</p>
+                            <a class="projectLink" href="#">Ver projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="skillsContentWrapper">
+                <div class="TextWrapper skillsHeader">
+                    <span class="eyebrow">Skills</span>
+                    <h2>Ferramentas que uso <br />
+                        no dia a dia.</h2>
+                </div>
+                <div class="skillsGrid">
+                    <span class="skillTag">HTML</span>
+                    <span class="skillTag">CSS</span>
+                    <span class="skillTag">JavaScript</span>
+                    <span class="skillTag">React</span>
+                    <span class="skillTag">Node.js</span>
+                    <span class="skillTag">TypeScript</span>
+                    <span class="skillTag">Git</span>
+                    <span class="skillTag">Figma</span>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contato">
+            <div class="contactContentWrapper">
+                <div class="TextWrapper contactHeader">
+                    <span class="eyebrow">Contato</span>
+                    <h2>Vamos construir <br />
+                        algo juntos?</h2>
+                    <p>Conta um pouco sobre seu projeto e retorno o quanto antes.</p>
+                </div>
+                <form class="contactForm">
+                    <div class="formGroup">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Como você se chama?">
+                    </div>
+                    <div class="formGroup">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com">
+                    </div>
+                    <div class="formGroup">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5"
+                            placeholder="Me conta um pouco sobre o seu projeto..."></textarea>
+                    </div>
+                    <button type="submit" class="primary">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+
+</html>
